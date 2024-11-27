@@ -1,0 +1,19 @@
+.container{
+    border: 1px solid red;
+    display: flex ;
+    /* flex-direction: column; */
+    padding: 5px;
+    gap: 5px;
+}
+.one{
+    border: 1px solid green;
+    padding: 5px;
+}
+
+.two{
+    border: 1px solid blue;
+    padding: 5px;
+}
+.deni{
+    display: flex;
+}

@@ -1,7 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .container{
     border: 1px solid red;
     display: flex ;
-    /* flex-direction: column; */
+     /* flex-direction: column; */ 
     padding: 5px;
     gap: 5px;
 }
@@ -16,4 +21,57 @@
 }
 .deni{
     display: flex;
+    flex-direction: column;
+
+}
+
+.card-container{
+    width: 800px;
+    height: auto;
+}
+
+.card{
+    border: 1px solid black;
+    display: flex;
+    gap: 30px;
+        font-size: smaller;
+        align-items: center;
+        margin-left: 20px;
+
+}
+ 
+.title{
+text-align: center;
+/* align-items: center; */
+/* margin-left: 20px; */
+}
+head{
+    display: flex;
+    justify-content: center;
+}
+#image{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    /* font-size: 30px; */
+ } 
+ #popular{ 
+     margin-top: 50px; 
+} 
+#titlee{
+    padding: 20px auto;
+}
+#popu{
+
+    border: 1px solid black;
+    display: flex;
+    /* gap: 30px; */
+        font-size: 30px;
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+
 }
